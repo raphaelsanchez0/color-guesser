@@ -23,9 +23,6 @@ header {
     text-align: center;
     
 }
-#rgb-value{
-    text-align: center;
-}
 
 #guesser{
     background: rgb(53, 53, 53);
@@ -34,22 +31,42 @@ header {
     top: 50%;
     transform: translate(0,-50%);
     border-radius: 0.5em;
-    width: 20%;
+    width: 40%;
+    padding: 3%;
     
    
 }
 
+#rgb-value{
+    text-align: center;
+    padding: .5em;
+}
+
 
 #guesser-nav{
-    display: flex;
-    flex-direction: row;
+    display: inline;
+    
+
     
 }
 
 #guesser-nav li{
     list-style-type: none;
+    display: inline-block;
     margin: 0;
-    padding: 0;
+    padding: 3%;
+    border: 1px solid #bbb;
+}
+
+#guesser-nav li:hover{
+    background: white;
+    color:rgb(53, 53, 53);
+    cursor: pointer;
+}
+
+#nav-container{
+    
+    
 }
 
 #color-grid{
