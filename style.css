@@ -65,7 +65,21 @@ header {
 
 #color-grid{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    width: ;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    width: 100%;
+    height: 15rem;
+    gap: 1em;
+    padding-top: 1em;
+    /* padding-top: 100%; */
+}
+
+.color-grid-block{
+    border: 1px ;
+}
+
+#color-grid div{
+    border: 1px solid black;
+    height: 100%;
+   
 }
