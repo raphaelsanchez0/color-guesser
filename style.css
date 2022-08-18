@@ -74,12 +74,15 @@ header {
     /* padding-top: 100%; */
 }
 
-.color-grid-block{
-    border: 1px ;
+#color-grid div{
+    border: 0px;
+}
+
+#color-grid div:hover{
+    border: 1px solid white;
 }
 
 #color-grid div{
     border: 1px solid black;
     height: 100%;
-   
 }
