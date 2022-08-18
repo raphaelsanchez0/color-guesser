@@ -1,3 +1,4 @@
+//updated version that works
 const colorGrid = document.querySelectorAll(".color-grid-block");
 const resetBtn = document.querySelector("#reset-btn");
 const rgbTextValue = document.querySelector('#rgb-value')
